@@ -426,10 +426,15 @@ a:focus {
 .footer-form {
   margin-left: 80px;
 }
+.subscribe-form {
+  display: flex;
+  gap: 24px;
+}
 .email-input {
   width: 264px;
   height: 40px;
   background-color: transparent;
+  color: var(--white);
   border: 1px solid white;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -440,16 +445,27 @@ a:focus {
   letter-spacing: 0.04em;
   padding: 8px 16px;
 }
-.subscribe-form {
-  display: flex;
-  gap: 24px;
-}
+
 .subscribe-btn {
-  width: 165px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 165px;
   height: 40px;
   color: #ffffff;
   background-color: var(--iris);
   border-radius: 4px;
-  align-items: center;
-  justify-content: center;
+  border: none;
+  cursor: pointer;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+.send-icon {
+}
+input::placeholder {
+  color: white;
 }

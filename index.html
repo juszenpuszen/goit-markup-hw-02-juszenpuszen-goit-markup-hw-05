@@ -507,21 +507,32 @@
                 <use href="./images/icons5.svg#icon-envelope"></use>
               </svg>
             </div>
-            <div class="modal-comment-div">
-              <label for="user-comment" class="label-text">Comment </label>
-              <textarea
-                id="user-comment"
-                name="user-comment"
-                placeholder="Text input"
-                class="inputs comment-area"
-              ></textarea>
-            </div>
+          </div>
+          <div class="modal-comment-div">
+            <label for="user-comment" class="label-text">Comment </label>
+            <textarea
+              id="user-comment"
+              name="user-comment"
+              placeholder="Text input"
+              class="comment-area"
+            ></textarea>
+          </div>
+          <div class="privacy">
+            <input
+              id="user-privacy"
+              type="checkbox"
+              value="true"
+              name="user-privacy"
+              class="prv-input visually-hidden"
+            />
+            <label for="user-privacy" class="privacy-text"
+              >I accept the terms and conditions of the
+              <a href="">Privacy Policy</a></label
+            >
+
+            <button type="submit">Send</button>
           </div>
         </form>
-        <p>
-          I accept the terms and conditions of the <a href="">Privacy Policy</a>
-        </p>
-        <button type="submit">Send</button>
       </div>
     </div>
   </body>

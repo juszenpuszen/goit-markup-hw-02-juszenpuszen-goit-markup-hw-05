@@ -476,13 +476,19 @@
         <p class="form-title">Leave your contacts and we will call you back</p>
         <form class="modal-form">
           <div class="modal-form-div">
-            <label> Name <input type="text" name="name" /></label>
-            <label> Phone <input type="tel" name="tel" /></label>
-            <label> Email <input type="email" name="email" /></label>
-            <label>
-              Comment
-              <input type="text" name="comment" placeholder="Text input"
-            /></label>
+            <label for="user-name" class="label-text">Name</label>
+
+            <div class="label-input">
+              <input type="text" name="-user-name" />
+            </div>
+            <label for="name" class="label-text">Phone</label>
+            <input type="tel" name="tel" />
+
+            <label for="name" class="label-text">Email </label>
+            <input type="email" name="email" />
+            <label for="name" class="label-text">Comment </label>
+
+            <input type="text" name="comment" placeholder="Text input" />
           </div>
         </form>
         I accept the terms and conditions of the <a href="">Privacy Policy</a>

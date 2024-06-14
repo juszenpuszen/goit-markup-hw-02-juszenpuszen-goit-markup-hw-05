@@ -554,4 +554,15 @@ input::placeholder {
 }
 
 .modal-form-div {
+  margin-bottom: 8px;
+}
+.label-text {
+  displey: block;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: var(--light-slate);
 }

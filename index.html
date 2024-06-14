@@ -489,14 +489,30 @@
               </svg>
             </div>
 
-            <label for="name" class="label-text">Phone</label>
-            <input type="tel" name="tel" />
-
-            <label for="name" class="label-text">Email </label>
-            <input type="email" name="email" />
-            <label for="name" class="label-text">Comment </label>
-
-            <input type="text" name="comment" placeholder="Text input" />
+            <label for="phone" class="label-text">Phone</label>
+            <div class="input-svg">
+              <input id="phone" type="tel" name="phone" class="inputs" />
+              <svg width="18" height="24" class="input-icon">
+                <use href="./images/icons5.svg#icon-phone"></use>
+              </svg>
+            </div>
+            <label for="email" class="label-text">Email </label>
+            <div class="input-svg">
+              <input id="email" type="email" name="email" class="inputs" />
+              <svg width="18" height="24" class="input-icon">
+                <use href="./images/icons5.svg#icon-envelope"></use>
+              </svg>
+            </div>
+            <label for="comment" class="label-text">Comment </label>
+            <div class="input-svg">
+              <input
+                id="comment"
+                type="text"
+                name="comment"
+                class="inputs comment"
+                placeholder="Text input"
+              />
+            </div>
           </div>
         </form>
         I accept the terms and conditions of the <a href="">Privacy Policy</a>

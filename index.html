@@ -468,8 +468,12 @@
     </footer>
     <div class="backdrop is-open">
       <div class="modal-window">
-        <button type="button">X</button>
-        Leave your contacts and we will call you back
+        <button type="button" class="closebtn">
+          <svg width="8" height="8" class="closebtn-icon">
+            <use href="./images/icons5.svg#icon-x"></use>
+          </svg>
+        </button>
+        <p class="form-title">Leave your contacts and we will call you back</p>
         <form class="modal-form">
           <label> Name <input type="text" name="name" /></label>
           <label> Phone <input type="tel" name="tel" /></label>

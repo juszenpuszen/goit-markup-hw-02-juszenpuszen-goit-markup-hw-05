@@ -660,9 +660,10 @@ input::placeholder {
   fill: transparent;
 }
 
-.prv-input:active .checkbox-icon {
-  fill: #404bbf;
+.prv-input:checked .checkbox-icon {
+  background-color: var(--iris);
   border: none;
+  fill: var(--cloud);
 }
 .prv-link {
   color: #4d5ae5;

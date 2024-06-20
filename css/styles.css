@@ -643,6 +643,9 @@ input::placeholder {
   color: #8e8f99;
 }
 
+.privacy {
+  margin-bottom: 24px;
+}
 .checkbox-icon {
   width: 16px;
   height: 16px;

@@ -525,6 +525,7 @@ input::placeholder {
   fill: var(--navy-blue);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .closebtn-icon:hover {
   fill: #ffffff;
 }

@@ -651,7 +651,7 @@ input::placeholder {
   fill: transparent;
 }
 
-.prv-input:checked .checkbox-icon {
+.prv-input:checked + .privacy-text .checkbox-icon {
   background-color: var(--iris);
   border: none;
   fill: var(--cloud);

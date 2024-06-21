@@ -523,21 +523,17 @@ input::placeholder {
 }
 .closebtn-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.closebtn:hover {
-  fill: #ffffff;
-}
-.closebtn:focus {
-  fill: #ffffff;
+} 
 }
 .closebtn:hover {
   background-color: var(--ocean);
   border: none;
+  fill: #ffffff;
 }
 .closebtn:focus {
   background-color: var(--ocean);
   border: none;
+  fill: #ffffff;
 }
 .form-title {
   font-family: Roboto;

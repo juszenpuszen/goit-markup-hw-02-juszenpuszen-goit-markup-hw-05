@@ -525,10 +525,10 @@ input::placeholder {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.closebtn-icon:hover {
+.closebtn:hover {
   fill: #ffffff;
 }
-.closebtn-icon:focus {
+.closebtn:focus {
   fill: #ffffff;
 }
 .closebtn:hover {

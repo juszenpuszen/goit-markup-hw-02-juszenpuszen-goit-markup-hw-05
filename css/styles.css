@@ -655,7 +655,7 @@ input::placeholder {
 }
 
 .prv-input:checked + .privacy-text .checkbox-icon {
-  background-color: var(--iris);
+  background-color: var(--ocean);
   border: none;
   fill: var(--cloud);
 }
